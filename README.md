@@ -32,17 +32,45 @@ Key take-aways:
 ---
 
 ### 2. Global Minimum-Variance (GMV) Portfolio & the Efficient Frontier
-* **GMV Portfolio** – the single point on the efficient set with the **lowest possible variance**.  
-  *Mathematically*:  
-  \[
-  \min_{\mathbf{w}} \; \mathbf{w}^\top \Sigma \mathbf{w}
-  \quad\text{s.t.}\quad
-  \mathbf{1}^\top \mathbf{w}=1
-  \]
-  where \(\Sigma\) is the covariance matrix of asset returns.
+#### 🚀 Efficient Frontier (made simple)
 
-* **Efficient Frontier** – the curve traced out by optimal portfolios as the target return varies.  
-  *Visual intuition*: everything **below** the curve is sub-optimal, everything **above** is infeasible.
+- **Imagine** plotting every possible mix of your chosen assets on a chart:
+  - **X-axis** ➜ risk (how much the portfolio’s value wiggles).
+  - **Y-axis** ➜ expected return (how much you hope it will grow).
+
+- **Efficient Frontier** = the upper-left curved edge of that cloud of dots.  
+  *Why it matters*:  
+  * Every point **on** the curve is the best you can do for its level of risk.  
+  * Anything **below** the curve is “worse”—same risk but less return.  
+  * Anything **above** the curve is impossible with the data you gave it.
+
+- **How do we draw the curve?**  
+  1. Pick a target return (say 7 %).  
+  2. Find the mix of assets that gives that return with the **least** risk.  
+  3. Record its risk & return on the chart.  
+  4. Repeat for lots of targets (5 %, 6 %, 8 %, …); connect the dots ➜ frontier.
+
+
+---
+
+#### 🌱 Global Minimum-Variance (GMV) Portfolio
+
+- The **GMV** point is the **far-left tip** of the frontier.  
+  *It’s the single portfolio with the lowest possible risk*, regardless of return.
+
+- **When is GMV useful?**  
+  * As a super-diversified “core” holding if you care most about stability.  
+  * As a benchmark—if your proposed portfolio is riskier **and** returns less than GMV, it’s clearly inefficient.
+
+![Efficient Frontier](https://github.com/remroc/GMVFactorInvesting/blob/main/GMV.png)
+
+---
+
+**Take-away:**  
+1. Feed expected returns & correlations into an optimiser.  
+2. The optimiser traces the efficient frontier; the left-most point is GMV.  
+3. Choose a spot on the curve that matches your personal risk-comfort level.
+ble.
 
 ---
 
@@ -59,11 +87,11 @@ Extends CAPM by adding systematic factors that explain cross-sectional returns:
 ---
 
 ### 4. Conditional Value-at-Risk (CVaR)
-Also called **Expected Shortfall**. Measures *average* loss in the worst-case tail beyond a chosen confidence level \( \alpha \):
+Also called **Expected Shortfall**. Measures *average* loss in the worst-case tail beyond a chosen confidence level \( $$\alpha \$$):
 
-\[
-\text{CVaR}_\alpha = \mathbb{E}[\,L \mid L \ge \text{VaR}_\alpha\,]
-\]
+$$
+CVaR_\alpha = \mathbb{E}[\,L \mid L \ge \text{VaR}_\alpha\,]
+$$
 
 * **Coherent risk metric** – satisfies sub-additivity, so it rewards diversification unlike plain VaR.  
 * **Practical reading** – “Given the worst 5 % of scenarios, how big is the *average* loss?”  
