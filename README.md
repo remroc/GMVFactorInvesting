@@ -11,6 +11,7 @@ After gaining a datacamp certification on portfolio management, we are applying 
 More info : 
 - on my course given to Guadeloupe's students : www.agialgo.fr
 - my linkedin : https://www.linkedin.com/in/rremife/
+- video on project :
 
 [![Watch the video](https://github.com/remroc/GMVFactorInvesting/blob/main/video.png)](https://vimeo.com/1094430543)
 
