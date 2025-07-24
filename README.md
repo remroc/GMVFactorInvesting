@@ -4,7 +4,13 @@
 * [provided notebook](https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution.ipynb)
 * [students' notebook](https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution-V02.ipynb)
 
-# Final discussion
+## IMPORTANT DISCLAIMER : 
+Investing is a risky activity. This means you can lose money or get ruined out of your investments. This project was done for an education purpose only and should not be used for your investment.
+The people involved in this projects are not financial advisors. And this project (videos, presentations, code) don't provide any financial advices. 
+By no means, any of the people involved in the project could be held responsible for your own financial decisions. Again, this project doesn't guarantee any profits.
+You use it at your own risks ! Last but not the least, the project and the people involved in it don't promote any of tools used for it.
+
+# Project final discussion
 
 [![Final discussion](https://github.com/remroc/GMVFactorInvesting/blob/main/20250718-PTF-updated-play.jpg?raw=true)](https://vimeo.com/1104289467/c2b816945f)
 
