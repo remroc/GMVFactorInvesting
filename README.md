@@ -2,6 +2,9 @@
 * provided notebook: [(https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution.ipynb)]
 * students' notebook: [(https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution-V02.ipynb)]
 
+# Final discussion
+[![Final discussion](https://github.com/remroc/GMVFactorInvesting/blob/main/20250718-PTF-updated-play.jpg?raw=true)](https://vimeo.com/1104289467/c2b816945f)
+
 # GMVFactorInvesting
 
 Portfolio Management project with Prepas Baimbridge students of class 2025 :
