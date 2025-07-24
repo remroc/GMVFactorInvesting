@@ -6,7 +6,7 @@
 
 ## IMPORTANT DISCLAIMER : 
 Investing is a risky activity. This means you can lose money or get ruined out of your investments. This project was done for an education purpose only and should not be used for your investment.
-The people involved in this projects are not financial advisors. And this project (videos, presentations, code) don't provide any financial advices. 
+The people involved in this projects are not financial advisors. Therefore those people and this project (videos, presentations, code, etc) don't provide any financial advices. 
 By no means, any of the people involved in the project could be held responsible for your own financial decisions. Again, this project doesn't guarantee any profits.
 You use it at your own risks ! Last but not the least, the project and the people involved in it don't promote any of tools used for it.
 
