@@ -1,4 +1,4 @@
-# GMVFactorInvesting (a summer 2025 investment project)
+# GMVFactorInvesting (a summer 2025 investment project with prepas Baimbridge students)
 
 ## Available Notebooks
 * [provided notebook](https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution.ipynb)
