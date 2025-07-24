@@ -1,3 +1,7 @@
+# Available Notebooks
+* provided notebook: [(https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution.ipynb)]
+* students' notebook: [(https://github.com/remroc/GMVFactorInvesting/blob/main/Portefeuille_Eightcap_Complet_Execution-V02.ipynb)]
+
 # GMVFactorInvesting
 
 Portfolio Management project with Prepas Baimbridge students of class 2025 :
